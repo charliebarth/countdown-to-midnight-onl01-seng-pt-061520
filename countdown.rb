@@ -1,7 +1,7 @@
 
 
-def countdown = "number"
-  number = 10
+def countdown(number)
+  
   while number > 0
   number -= 1
   
@@ -13,7 +13,7 @@ end
 
 countdown
 
-def countdown_with_sleep
+def countdown_with_sleep(number)
   number = 5
   while number > 0
   number -= 1
